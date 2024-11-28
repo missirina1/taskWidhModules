@@ -1,0 +1,16 @@
+{
+  "name": "dashboard",
+  "version": "0.0.1",
+  "description": "Трекер выполненных мною задач",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "browserify src/script.js -o dist/bundle.js"
+  },
+  "author": "Irina Petukhova",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "jquery": "^3.7.1",
+    "moment": "^2.30.1"
+  }
+}

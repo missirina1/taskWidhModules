@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css"
+    />
+
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="add__newTask">
+        <button class="add__newTask_btn" id="addNewTask">
+          Добавить новую задачу
+        </button>
+      </header>
+
+      <main class="charts__box">
+        <article>
+          <div>
+            <canvas id="chart1" class="chart_1"></canvas>
+          </div>
+        </article>
+
+        <article class="task__list">
+          <p id="dateNewYear" class="newYear"></p>
+          <h2>Задачи на сегодня</h2>
+          <ul class="task__list_ul"></ul>
+        </article>
+      </main>
+    </div>
+    <aside class="navigation__board">
+      <h1 class="navigation__board_title">TaskEdeg</h1>
+      <ul class="navigation__board_list">
+        <li>Dashboard</li>
+        <li>Project</li>
+        <li>My tasks</li>
+        <li>Statistics</li>
+        <li>Messages</li>
+        <li>Friends</li>
+        <li>Setting</li>
+      </ul>
+    </aside>
+
+    <script src="/dist/bundle.js" defer></script>
+  </body>
+</html>
